@@ -1,0 +1,59 @@
+.homepage-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.homepage-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.loading, .error, .no-stores {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.error {
+    color: red;
+}
+
+.store-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.store-item {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 1rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.store-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.store-link {
+    text-decoration: none;
+    color: #333;
+}
+
+.store-link h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.store-link p {
+    margin: 0.5rem 0 0;
+    font-size: 1rem;
+    color: #666;
+}

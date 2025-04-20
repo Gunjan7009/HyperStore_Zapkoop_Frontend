@@ -1,0 +1,66 @@
+.store-page {
+    max-width: 1000px;
+    margin: 3rem auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+.store-page h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.loading-message,
+.error-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #777;
+    margin: 2rem 0;
+}
+
+.error-message {
+    color: red;
+}
+
+.view-cart-link-container {
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+.view-cart-link-container.bottom {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.button-link {
+    padding: 0.6rem 1.2rem;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+    background-color: #218838;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
