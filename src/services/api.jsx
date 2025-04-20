@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = "http://localhost:3000/api";
+const API_URL = "https://hyperstore-backend-4i7h.onrender.com/api";
 if (!API_URL) {
     console.warn("VITE_API_URL is not defined in .env. Falling back to default.");
     // You might set a default or throw an error, but ensure it's handled.
